@@ -56,7 +56,7 @@ resource "coder_app" "code-server" {
   agent_id     = coder_agent.main.id
   display_name = "VS Code Web"
   slug         = "code-server"
-  url          = "http://localhost:8000/?folder=/home/${data.coder_workspace.me.owner}"
+  url          = "http://localhost:8000/?folder=/home/coder/"
   icon         = "https://raw.githubusercontent.com/matifali/logos/main/code.svg"
   subdomain    = true
   share        = "owner"

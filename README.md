@@ -2,6 +2,8 @@
 Run the full VSCode server within coder! (Enabled settings sync and Microsoft Marketplace)
 **Thank you matifali#7055 for showing me that vscode-server exists!**
 
+**Please note that this template uses software that is owned by Microsft. Please look at the licensing and terms [here](https://code.visualstudio.com/license/server)**
+
 ## Usage
 Clone the repo and use the coder command to upload the template (*Make sure you have docker installed on the host!*)
 
